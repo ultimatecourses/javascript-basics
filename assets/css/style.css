@@ -10,7 +10,12 @@
   font-weight: normal;
   font-style: normal;
 }
+*{
+margin:0px;
+  padding:0px;
+  box-sizing:none;
 
+}
 html,
 body {
   padding: 0;
@@ -67,6 +72,10 @@ body {
 #app h1 {
   margin: 0;
   font-size: 3rem;
+}
+#app h1:hover{
+color:blue;
+    word-spacing: 20px;
 }
 
 #app h1:before {
