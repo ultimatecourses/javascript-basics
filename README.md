@@ -1,8 +1,8 @@
 <h1 align="center">
 <img width="40" valign="bottom" src="https://ultimatecourses.com/static/icons/javascript.svg">
-JavaScript Basics: Starter Project
+Starter Project for Javascript Basics
 </h1>
-<h4 align="center">Starter Project for the Ultimate Courses JavaScript Basics course.</h4>
+<h4 align="center">Starter Project for the Ultimate Javascript Basic courses.</h4>
 
 ---
 
