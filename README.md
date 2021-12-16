@@ -7,7 +7,9 @@ JavaScript Basics: Starter Project
 ---
 
 <div align="center">
-<a href="https://ultimatecourses.com/courses/javascript" target="_blank"><img width="100%" src="https://ultimatecourses.com/static/banners/ultimate-javascript-leader.svg"></a>
+<a href="https://ultimatecourses.com/courses/javascript" target="_blank">
+  <img width="100%" src="https://ultimatecourses.com/static/banners/ultimate-javascript-leader.svg">
+</a>
 </div>
 
 ---
