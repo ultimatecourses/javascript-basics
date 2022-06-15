@@ -30,3 +30,9 @@ console.log(result);*/
 
 /*function
 console.log(Number(66));*/
+
+/*string and indexes
+console.log(new String(1234));
+console.log("Mark"[2]);*/
+
+console.log(typeof Hi);
