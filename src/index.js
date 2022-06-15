@@ -27,3 +27,6 @@ if (number === 0) {
   result = "not nice";
 }
 console.log(result);*/
+
+/*function
+console.log(Number(66));*/
