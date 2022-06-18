@@ -35,4 +35,7 @@ console.log(Number(66));*/
 console.log(new String(1234));
 console.log("Mark"[2]);*/
 
-console.log(typeof Hi);
+/*TestingUppercase 
+const word = "Hello";
+const trans = word.toUpperCase();
+console.log(trans);*/
