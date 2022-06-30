@@ -39,3 +39,8 @@ console.log("Mark"[2]);*/
 const word = "Hello";
 const trans = word.toUpperCase();
 console.log(trans);*/
+/*
+function price() {
+  console.log(arguments[1]);
+}
+price(1, 2, 3, 4);*/
