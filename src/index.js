@@ -58,7 +58,7 @@ function pangalan(name) {
 }
 pangalan("Mark");*/
 
-/*
+/* PARAMS TEST
 function price(numberOne, ...params) {
   console.log(numberOne, params);
   console.log(Array.isArray(params));
@@ -66,3 +66,19 @@ function price(numberOne, ...params) {
   console.log(`Total ${total}USD`);
 }
 price(88, 77, 66, 55); */
+
+/*testingArrowFunction
+const pangalan = (name = "Mark") =>
+  console.log(`Pangalan: ${name.toUpperCase()}`);
+pangalan();
+
+const pangalan = (name = "Mark") => {
+  console.log(name.toUpperCase());
+};
+pangalan(); */
+
+/*Playing with functions
+function pangalan(name) {
+  console.log(`Pangalan ${name.toUpperCase()}`);
+}
+pangalan("Hehe");*/
