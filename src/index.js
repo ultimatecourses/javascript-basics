@@ -96,3 +96,25 @@ const price2 = (...params) => params.reduce((prev, next) => prev + next);
 
 console.log(`Total: ${price(20, 22, 55, 40)}usd`);
 console.log(`Total: ${price2(20, 22, 55, 40, 41)}usd`);*/
+
+/*RETURN PLAYTIME
+function pangalan(id) {
+  const thename = `My name is: ${id}`;
+  return function (name) {
+    return `${thename} ${name}`;
+  };
+}
+const newpangalan = pangalan("Mark Kenneth");
+console.log(newpangalan("Ferrer"));
+
+const second = pangalan("Jessa");
+console.log(second("Zabala"));
+
+function thecarpartid(id) {
+  const theid = `The car is a: ${id}`;
+  return function (name) {
+    return `${theid} ${name}`;
+  };
+}
+const newcarpartid = thecarpartid("Tesla");
+console.log(newcarpartid("But no charger"));*/
