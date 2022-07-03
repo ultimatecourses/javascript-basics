@@ -82,3 +82,7 @@ function pangalan(name) {
   console.log(`Pangalan ${name.toUpperCase()}`);
 }
 pangalan("Hehe");*/
+
+/* Shortcut
+const price = (...params) => params.reduce((prev, next) => prev + next);
+console.log(`Total ${price(19, 15, 199)}`);*/
