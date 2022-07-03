@@ -57,3 +57,12 @@ function pangalan(name) {
   console.log(name);
 }
 pangalan("Mark");*/
+
+/*
+function price(numberOne, ...params) {
+  console.log(numberOne, params);
+  console.log(Array.isArray(params));
+  const total = params.reduce((prev, next) => prev + next);
+  console.log(`Total ${total}USD`);
+}
+price(88, 77, 66, 55); */
