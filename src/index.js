@@ -86,3 +86,13 @@ pangalan("Hehe");*/
 /* Shortcut
 const price = (...params) => params.reduce((prev, next) => prev + next);
 console.log(`Total ${price(19, 15, 199)}`);*/
+
+/*RETURN LEARNING
+function price(...params) {
+  const total = params.reduce((prev, next) => prev + next);
+  return total;
+}
+const price2 = (...params) => params.reduce((prev, next) => prev + next);
+
+console.log(`Total: ${price(20, 22, 55, 40)}usd`);
+console.log(`Total: ${price2(20, 22, 55, 40, 41)}usd`);*/
