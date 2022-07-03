@@ -118,3 +118,19 @@ function thecarpartid(id) {
 }
 const newcarpartid = thecarpartid("Tesla");
 console.log(newcarpartid("But no charger"));*/
+
+/*This test 
+const firstname = { id: "Mark" };
+const secondname = { id: "Kenneth" };
+const surname = { id: "Oraa" };
+
+function thename(name, number) {
+  console.log(`${this.id} ${name} ${number}`);
+}
+
+//bind the same as call but lazy version
+const boundsurname = thename.bind(surname, "hehe", 22);
+boundsurname();
+
+thename.call(firstname, "Ano nga?", 12);
+thename.call(secondname);*/
