@@ -42,13 +42,12 @@ console.log(trans);*/
 
 /*ArgumentsTest
 function price() {
-  console.log(arguments[1]);
+  console.log(arguments[2]);
 }
 price(1, 2, 3, 4);*/
 
-/*
-function pangalan(name = "Mark") {
-  console.log(`Ngalan: ${name.toUpperCase()}`);
+/*function pangalan(name = "Mark") {
+  console.log(`Ngalan: ${name.toLowerCase()}`);
 }
 pangalan("Mark");*/
 
@@ -63,9 +62,9 @@ function price(numberOne, ...params) {
   console.log(numberOne, params);
   console.log(Array.isArray(params));
   const total = params.reduce((prev, next) => prev + next);
-  console.log(`Total ${total}USD`);
+  console.log(`Total: ${total} USD`);
 }
-price(88, 77, 66, 55); */
+price(88, 77, 66, 55);*/
 
 /*testingArrowFunction
 const pangalan = (name = "Mark") =>
