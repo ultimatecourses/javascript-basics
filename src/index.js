@@ -134,11 +134,11 @@ boundsurname();
 thename.call(firstname, "Ano nga?", 12);
 thename.call(secondname);*/
 
-/*destructuring
+/*destructuring*/
 
 const drink = {
-  id: 'food'
-  name :'sisig'
+  id: "food",
+  name: "sisig",
   price: {
     sale: 50,
     full: 99,
@@ -152,7 +152,7 @@ console.log(myDrinkId, myDrinkName, myDrinkSalePrice);
 const {
   id,
   name,
-  price: {sale},
+  price: { sale },
 } = drink;
 
-console.log(id, name, full); */
+console.log(id, name, sale);
