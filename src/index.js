@@ -92,7 +92,7 @@ function price(...params) {
   return total;
 }
 const price2 = (...params) => params.reduce((prev, next) => prev + next);
-
+``;
 console.log(`Total: ${price(20, 22, 55, 40)}usd`);
 console.log(`Total: ${price2(20, 22, 55, 40, 41)}usd`);*/
 
@@ -134,7 +134,7 @@ boundsurname();
 thename.call(firstname, "Ano nga?", 12);
 thename.call(secondname);*/
 
-/*destructuring*/
+/*destructuring
 
 const drink = {
   id: "food",
@@ -155,4 +155,28 @@ const {
   price: { sale },
 } = drink;
 
-console.log(id, name, sale);
+console.log(id, name, sale);*/
+
+/*object pratice with method*/
+let gf = {
+  first: "Jessa",
+  second: "Zabala",
+  names: function () {
+    console.log("names");
+  },
+};
+gf.names();
+
+/*simple object editing practice*/
+let pcparts = {
+  cpu: "intel",
+  gpu: "nvidia",
+  externals: {
+    mouse: "razer",
+    keyboard: "chiclet",
+  },
+};
+
+const newpcparts = pcparts;
+newpcparts.cpu = "amd";
+console.log(pcparts);
