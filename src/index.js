@@ -157,7 +157,7 @@ const {
 
 console.log(id, name, sale);*/
 
-/*object pratice with method*/
+/*object pratice with method
 let gf = {
   first: "Jessa",
   second: "Zabala",
@@ -166,8 +166,9 @@ let gf = {
   },
 };
 gf.names();
+*/
 
-/*simple object editing practice*/
+/*simple object editing practice
 let pcparts = {
   cpu: "intel",
   gpu: "nvidia",
@@ -179,4 +180,5 @@ let pcparts = {
 
 const newpcparts = pcparts;
 newpcparts.cpu = "amd";
-console.log(pcparts);
+console.log(pcparts);*/
+
